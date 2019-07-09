@@ -6,7 +6,7 @@ and then there's just gonna be a simple p tag with some text in it
 
 ### an h3...
 
-[some Img](/img/1.jpg)
+![some Img](/img/img1.jpeg)
 
 - a list
 - item
