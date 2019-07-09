@@ -1,3 +1,8 @@
+---
+layout: base.njk
+title: Home
+---
+
 # ok well this is gonna be the h1
 
 and then there's just gonna be a simple p tag with some text in it

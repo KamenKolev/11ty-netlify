@@ -1,3 +1,8 @@
+---
+layout: base.njk
+title: About
+---
+
 # about this thingy
 
 - it's a test thing
