@@ -1,5 +1,5 @@
 {
-  "name": "11ty-netlify test",
+  "name": "11ty-netlify-test",
   "version": "1.0.0",
   "description": "A simple eleventy + netlify test",
   "author": "Kamen Kolev",
@@ -12,7 +12,7 @@
     "browserlist": "^1.0.1"
   },
   "scripts": {
-    "serve": "npx eleventy --serve",
-    "build": "npx eleventy"
+    "serve": "npx @11ty/eleventy --serve",
+    "build": "npx @11ty/eleventy"
   }
 }
