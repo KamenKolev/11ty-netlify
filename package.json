@@ -1,18 +1,17 @@
 {
-  "name": "imgapp",
+  "name": "11ty-netlify test",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "description": "A simple eleventy + netlify test",
+  "author": "Kamen Kolev",
+  "license": "GNU",
   "dependencies": {
     "@11ty/eleventy-plugin-rss": "^1.0.6"
   },
   "devDependencies": {
     "@11ty/eleventy": "^0.8.3"
+  },
+  "scripts": {
+    "serve": "npx eleventy --serve",
+    "build": "npx eleventy"
   }
 }
