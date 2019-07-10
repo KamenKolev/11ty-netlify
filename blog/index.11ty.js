@@ -9,9 +9,9 @@ module.exports = class Blog {
     return `
     <div>
       <ul>
-        ${collections.post.map(
-          post => `<li><a href="${post.url}">${post.data.title}</a></li>`
-        )}
+        ${collections.post
+          .map(post => `<li><a href="${post.url}">${post.data.title}</a></li>`)
+          .join("")}
       </ul>
     </div>
     `;
