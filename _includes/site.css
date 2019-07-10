@@ -1,12 +1,26 @@
 :root {
-  font-size: 150%;
+  font-size: 200%;
+  /* --bg-color: black;
+  --text-color: white; */
 }
 
 body {
-  background-color: black;
-  color: white;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+main {
+  margin: 10vh auto;
+  max-width: 800px;
 }
 
 img {
   max-width: 100%;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-gap: 2rem;
 }
