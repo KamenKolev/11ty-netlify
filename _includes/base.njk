@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>nunjucks title! | {{ title }}</title>
     <link rel="stylesheet" type="text/css" href="/css/site.css" />
-    {# <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script> #}
   </head>
   <body style="text-align: center;">
     <header>
@@ -13,6 +14,8 @@
         <a href="/blog">Blog</a>
       </nav>
     </header>
-    {{ content | safe }}
+    <main>
+      {{ content | safe }}
+    </main>
   </body>
 </html>

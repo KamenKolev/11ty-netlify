@@ -1,6 +1,10 @@
+:root {
+  font-size: 150%;
+}
+
 body {
   background-color: black;
-  color: orange;
+  color: white;
 }
 
 img {
