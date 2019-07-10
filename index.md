@@ -17,7 +17,6 @@ and then there's just gonna be a simple p tag with some text in it
 - item
 - and a 3rd
 
-<!-- These images should be optimized first -->
-<!-- ![first iamge](/img/img1.jpg)
+![first iamge](/img/img1.jpg)
 ![2nd iamge](/img/img2.jpg)
-![3rd iamge](/img/img3.jpg) -->
+![3rd iamge](/img/img3.jpg)
