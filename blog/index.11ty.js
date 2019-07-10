@@ -9,14 +9,14 @@ module.exports = class Blog {
     return `
     <div>
       <ul>
-        ${collections.post
+        ${collections.postsReversed
           .map(
             post =>
               `<li>
                 <a href="${post.url}">${post.data.title}</a>
               </li>`
           )
-          .reverse()
+          // .reverse()
           .join("")}
       </ul>
     </div>
