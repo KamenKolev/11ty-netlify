@@ -9,7 +9,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "@11ty/eleventy-plugin-rss": "^1.0.6"
+  },
   "devDependencies": {
     "@11ty/eleventy": "^0.8.3"
   }
