@@ -15,6 +15,7 @@ body {
 main {
   margin: 10vh auto;
   max-width: 800px;
+  padding: 0.5rem;
 }
 
 nav {
