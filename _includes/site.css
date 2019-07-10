@@ -1,13 +1,15 @@
 :root {
-  font-size: 200%;
-  /* --bg-color: black;
-  --text-color: white; */
+  font-size: 125%;
+}
+
+@media (min-width: 768px) {
+  :root {
+    font-size: 175%;
+  }
 }
 
 body {
   text-align: center;
-  background-color: var(--bg-color);
-  color: var(--text-color);
 }
 
 main {
