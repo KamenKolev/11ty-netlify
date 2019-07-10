@@ -9,11 +9,7 @@
       rel="stylesheet"
       href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap-reboot.css"
     />
-    {% set css %} {% include "site.css" %} {% endset %}
-    <!-- feed it through our cssmin filter to minify -->
-    <style>
-      {{ css | cssmin | safe }}
-    </style>
+    <link rel="stylesheet" href="/css/site.css" />
   </head>
   <body>
     <header>
