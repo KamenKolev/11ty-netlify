@@ -15,16 +15,40 @@
       {{ css | cssmin | safe }}
     </style>
   </head>
-  <body style="text-align: center;">
+  <body>
     <header>
       <nav>
         <a href="/">Home</a>
         <a href="/about">About</a>
         <a href="/blog">Blog</a>
       </nav>
+      <hr />
     </header>
     <main>
       {{ content | safe }}
     </main>
+    <footer>
+      <hr />
+      <p>
+        Powered by
+        <a href="https://11ty.io" rel="external noopener" target="_blank"
+          >Eleventy</a
+        >
+        and
+        <a
+          href="https://www.netlify.com"
+          rel="external noopener"
+          target="_blank"
+          >Netlify</a
+        >
+        <br />Source code publicly available on
+        <a
+          href="https://github.com/KamenKolev/11ty-netlify"
+          rel="external noopener"
+          target="_blank"
+          >GitHub</a
+        >
+      </p>
+    </footer>
   </body>
 </html>

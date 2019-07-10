@@ -5,6 +5,7 @@
 }
 
 body {
+  text-align: center;
   background-color: var(--bg-color);
   color: var(--text-color);
 }
@@ -12,6 +13,14 @@ body {
 main {
   margin: 10vh auto;
   max-width: 800px;
+}
+
+nav {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: center;
+  grid-gap: 2rem;
+  padding: 0.5rem;
 }
 
 img {
