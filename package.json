@@ -9,7 +9,10 @@
   },
   "devDependencies": {
     "@11ty/eleventy": "^0.8.3",
-    "browserlist": "^1.0.1"
+    "browserlist": "^1.0.1",
+    "html-minifier": "^4.0.0",
+    "prettier": "1.18.2",
+    "stylelint-config-recommended": "^2.2.0"
   },
   "scripts": {
     "serve": "npx @11ty/eleventy --serve",
