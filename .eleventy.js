@@ -2,8 +2,10 @@ const pluginRss = require("@11ty/eleventy-plugin-rss")
 const CleanCSS = require("clean-css")
 const fs = require("fs")
 const htmlmin = require("html-minifier")
+const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 
 module.exports = function(eleventyConfig) {
+  eleventyConfig.addPlugin(syntaxHighlight);
   // borrowed from https://github.com/11ty/eleventy-base-blog/commit/e2be85925d9c43f9a56dc4fd2767ca42d2acf2be
   eleventyConfig.setBrowserSyncConfig({
     callbacks: {

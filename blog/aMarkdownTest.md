@@ -1,9 +1,9 @@
 ---
 layout: blog
 tags: post
-title: What I learned on 10.07.19
+title: A markdown test
 date: Created
-# thumbnail: /img/uploads/fbvp_udf_400x400.jpg
+# thumbnail: /img/uploads/...
 ---
 
 I just wrote some markdown on VSCODE and remembered that it somehow supports syntax highlighting!
