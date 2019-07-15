@@ -10,7 +10,7 @@ I just wrote some markdown on VSCODE and remembered that it somehow supports syn
 
 So here is my attempt at getting it to work here.
 
-```javascript
+```js
 useEffect(() => {
   document.title = `You clicked ${count} times`
 }, [count]) // Only re-run the effect if count changes
